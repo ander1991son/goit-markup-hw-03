@@ -60,7 +60,7 @@ address {
   align-items: center;
 }
 
-section {
+.padding-section {
   padding: 94px;
 }
 
@@ -116,6 +116,10 @@ ul {
   padding-bottom: 25px;
   padding-left: 215px;
   display: flex;
+}
+
+.header-logo {
+  padding-bottom: 9px;
 }
 
 .nav-header {
@@ -212,6 +216,9 @@ h3 {
   gap: 30px;
 }
 
+.main-ul {
+}
+
 .main-h3 {
   color: var(--grey-color);
 }
@@ -235,6 +242,10 @@ h2 {
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
+}
+
+.section-h2 {
+  padding-bottom: 55px;
 }
 
 .porfolio-link {
