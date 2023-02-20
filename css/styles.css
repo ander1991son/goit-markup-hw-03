@@ -64,12 +64,21 @@ section {
   padding: 94px 0;
 }
 
+.header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-width {
   display: flex;
+  gap: 80px;
 }
 
 .section-width {
-  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body {
@@ -79,15 +88,16 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--white-color);
 }
-header {
-  background-color: aqua;
-}
 
 .container {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: rgba(236, 236, 236, 1);
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: flex;
   flex-direction: column;
 }
@@ -103,13 +113,15 @@ ul {
   line-height: 30.52px;
   font-weight: 700;
   padding-top: 24px;
+  padding-bottom: 25px;
   padding-left: 215px;
+  display: flex;
 }
 
 .nav-header {
   display: flex;
-
-  padding-top: 32px;
+  gap: 50px;
+  padding: 32px;
   margin: 0;
 }
 
@@ -125,8 +137,9 @@ ul {
 }
 
 .ul-information {
-  display: flex;
   margin: 0;
+  display: flex;
+  gap: 50px;
 }
 
 .information {
@@ -151,13 +164,15 @@ h1 {
 }
 
 .section-h3 {
-  width: 1200px;
   background-color: rgba(47, 48, 58, 1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 .solution {
+  width: 696px;
   font-size: 44px;
-  padding-top: 200px;
-  padding-bottom: 280px;
 }
 
 button {
@@ -187,6 +202,11 @@ h3 {
   font-size: 14px;
   line-height: 16.41px;
   font-weight: 700;
+}
+
+.ul-main {
+  display: flex;
+  flex-grow: 5;
 }
 
 .main-h3 {
@@ -222,6 +242,20 @@ h2 {
   text-decoration: none;
 }
 
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.class-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.padding-portfolio {
+  padding: 30px;
+}
+
 .name-h3 {
   font-size: 16px;
   font-weight: 500;
@@ -249,4 +283,13 @@ h2 {
 
 footer {
   background-color: var(--blackened-color);
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-list {
+  padding-left: 215px;
 }
