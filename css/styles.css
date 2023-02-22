@@ -70,12 +70,12 @@ address {
 
 .header-body {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .nav-width {
   display: flex;
-  gap: 80px;
+  gap: 93px;
 }
 
 .section-width {
@@ -97,10 +97,7 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: rgba(236, 236, 236, 1);
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,21 +113,21 @@ ul {
   font-size: 26px;
   line-height: 30.52px;
   font-weight: 700;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  padding-left: 215px;
+  padding: 24px 0 25px;
   display: flex;
 }
 
-.header-logo {
+.footer-logo {
   padding-top: 60px;
   padding-bottom: 9px;
+  padding-left: 215px;
 }
 
 .nav-header {
   display: flex;
+  align-items: center;
   gap: 50px;
-  padding: 32px;
+  padding: 32px 0;
   margin: 0;
 }
 
@@ -150,8 +147,11 @@ ul {
 }
 
 .ul-information {
+  padding: 32px 0;
   margin: 0;
   display: flex;
+
+  align-items: center;
   gap: 50px;
 }
 
