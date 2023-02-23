@@ -61,7 +61,7 @@ address {
 }
 
 .padding-section {
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .section-backgraund {
@@ -69,8 +69,10 @@ address {
 }
 
 .header-body {
+  padding-left: 215px;
+  padding-right: 215px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-width {
@@ -79,7 +81,6 @@ address {
 }
 
 .section-width {
-  padding-left: 215px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,7 +98,6 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: rgba(236, 236, 236, 1);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,8 +218,8 @@ h3 {
 }
 
 .ul-main {
-  padding-left: 0;
-  margin: 0;
+  padding-left: 215px;
+  padding-right: 215px;
   display: flex;
   gap: 30px;
 }
@@ -235,6 +235,9 @@ main {
 .main-p {
   color: var(--grey-color);
   line-height: 24px;
+}
+
+.padding-ul-main {
 }
 
 h2 {
@@ -265,6 +268,10 @@ h2 {
   text-decoration: none;
 }
 
+button {
+  border: none;
+}
+
 .button-flex {
   display: flex;
   justify-content: center;
@@ -275,6 +282,7 @@ h2 {
   justify-content: space-between;
   gap: 32px;
   padding-bottom: 56px;
+  padding-top: 112px;
 }
 
 .name-h3 {
