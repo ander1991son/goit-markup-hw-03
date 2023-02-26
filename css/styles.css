@@ -65,8 +65,15 @@ address {
 }
 
 .ul-flex {
+  padding-left: 149px;
+  padding-right: 149px;
   display: flex;
   gap: 30px;
+}
+
+.padding-ul-main {
+  padding-left: 149px;
+  padding-right: 149px;
 }
 
 .section-backgraund {
@@ -117,8 +124,7 @@ ul {
 }
 
 .footer-logo {
-  padding-top: 60px;
-  padding-bottom: 9px;
+  padding: 60px 149px 9px 149px;
 }
 
 .nav-header {
@@ -223,6 +229,11 @@ h3 {
   display: flex;
 }
 
+.padding-portfolio {
+  padding-left: 149px;
+  padding-right: 149px;
+}
+
 .main-h3 {
   color: var(--grey-color);
 }
@@ -312,4 +323,6 @@ footer {
 
 .icon-list {
   padding-bottom: 60px;
+  padding-left: 149px;
+  padding-right: 149px;
 }
