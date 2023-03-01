@@ -226,6 +226,7 @@ h3 {
 
 .section-width {
   display: flex;
+  border-radius: 6px;
 }
 
 .padding-portfolio {
@@ -289,9 +290,11 @@ button {
 }
 
 .name-h3 {
+  padding-top: 30px;
   font-size: 16px;
   font-weight: 500;
   line-height: 18.75px;
+  text-align: center;
 }
 
 .name-p {
