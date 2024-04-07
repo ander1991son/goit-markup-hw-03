@@ -323,9 +323,46 @@ footer {
 
 .footer-flex {
   display: flex;
-  flex-direction: column;
 }
 
 .icon-list {
   padding: 0 0 60px 113px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 55%;
+  margin-top: 7%;
+}
+
+.redes-h3 {
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.redes-svg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle-svg {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  line-height: 53px;
+  text-align: center;
+  transition-property: color;
+}
+
+.circle-svg svg {
+  fill: var(--white-color);
+}
+
+.circle-svg:hover {
+  background-color: var(--blue-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
